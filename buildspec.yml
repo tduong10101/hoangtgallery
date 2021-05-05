@@ -29,7 +29,7 @@ phases:
     commands:
       - echo Entered the post_build phase...
       - echo Build completed on `date`
-      - aws s3 sync public/ s3://hoangtgallery --region region --acl public-read --delete
+      - aws s3 sync public/ s3://hoangtgallery
       - aws cloudfront create-invalidation --distribution-id XX --paths '/*'
 artifacts:
   files: []
