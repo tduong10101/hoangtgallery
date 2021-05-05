@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://www.example.com"
+baseURL = "http://hoangtgallery.s3-website-ap-southeast-2.amazonaws.com"
 title = "Gallery"
 theme = "persian"
 languageName = "En"
