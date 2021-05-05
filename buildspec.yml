@@ -8,6 +8,7 @@ phases:
   install:
     commands:
       - echo Entered the install phase...
+      - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
       - apt-get -qq update
       - apt-get -qq install curl
       - apt-get -qq install asciidoctor
