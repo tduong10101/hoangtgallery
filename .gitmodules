@@ -1,0 +1,6 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/persian"]
+	path = themes/persian
+	url = https://github.com/gethugothemes/persian-hugo
